@@ -11,7 +11,7 @@ def main() :
 # Print the word count
 
     word_count = count_words(text)
-    print(f"{word_count} words found in the document")
+    print(f"Found {word_count} total words")
 
 #   print the charachter count
     char_count = count_characters(text)

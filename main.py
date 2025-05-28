@@ -34,7 +34,7 @@ def main() :
 #   print the charachter count
     print("-" * 9 + " Character Count " + "-" * 8)
     char_count = count_characters(text)
-    print(char_count)
+#    print(char_count)
 
     sorted_chars = sort_char_counts(char_count)
 

@@ -9,7 +9,7 @@ def main() :
         print("Usage: python main.py <book_path>")
         sys.exit(1)
 
-    book_path = "sys.argv[1]"
+    book_path = sys.argv[1]
 #    book_content = get_book_test(book_path)
 
 #load the book content

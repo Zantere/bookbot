@@ -7,13 +7,20 @@ def main() :
 #    print the book content
 #    print(book_content)
 
-
+    # header
+    print("=" * 12 + " BOOKBOT " + "=" * 12)
+    print(f"Analyzing book found at {book_content}...")
 # Print the word count
+
+    # word count section
+    print("-" * 11 + " Word Count " + "-" * 11)
 
     word_count = count_words(text)
     print(f"Found {word_count} total words")
 
+
 #   print the charachter count
+    print("-" * 9 + " Character Count " + "-" * 8)
     char_count = count_characters(text)
     print(char_count)
 

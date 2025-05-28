@@ -1,7 +1,8 @@
 from stats import count_words, count_characters, sort_char_counts
 
 def main() :
-    book_content = get_book_test("./books/frankenstein.txt")
+    book_path = "books/frankenstein.txt"
+    book_content = get_book_test(book_path)
     text = get_book_test("./books/frankenstein.txt")
 
 #    print the book content
@@ -9,7 +10,7 @@ def main() :
 
     # header
     print("=" * 12 + " BOOKBOT " + "=" * 12)
-    print(f"Analyzing book found at {book_content}...")
+    print(f"Analyzing book found at {book_path}...")
 # Print the word count
 
     # word count section

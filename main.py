@@ -1,4 +1,4 @@
-from stats import count_words, count_characters 
+from stats import count_words, count_characters, sort_char_counts
 
 def main() :
     book_content = get_book_test("./books/frankenstein.txt")
@@ -17,6 +17,10 @@ def main() :
     char_count = count_characters(text)
     print(char_count)
 
+    sorted_chars = sort_char_counts(char_count)
+
+    for entry in sorted_chars
+        print (f"{entry['char']}: {entry['num']}")
 
 
 def get_book_test(filepath):

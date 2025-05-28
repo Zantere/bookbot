@@ -19,7 +19,7 @@ def main() :
 
     sorted_chars = sort_char_counts(char_count)
 
-    for entry in sorted_chars
+    for entry in sorted_chars:
         print (f"{entry['char']}: {entry['num']}")
 
 

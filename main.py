@@ -1,9 +1,20 @@
 from stats import count_words, count_characters, sort_char_counts
+import sys 
+
 
 def main() :
-    book_path = "books/frankenstein.txt"
-    book_content = get_book_test(book_path)
-    text = get_book_test("./books/frankenstein.txt")
+
+#argument check
+    if len(sys.argv) != 2:
+        print("Usage: python main.py <book_path>")
+        sys.exit(1)
+
+    book_path = "sys.argv[1]"
+#    book_content = get_book_test(book_path)
+
+#load the book content
+
+    text = get_book_test(book_path)
 
 #    print the book content
 #    print(book_content)
